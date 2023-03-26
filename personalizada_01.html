@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no, maximun-scale=1.0, minimum-scale=1.0"><!-- Para que no pueda hacer zoom, sino 
+    dezplase hacia arriba y abajo -->
+    <link rel="stylesheet" href="./css/styles001.css">
+    <title>personalizada 01</title>
+</head>
+
+<body>
+    <div class="contenedor">
+    <h1>Los de La Culpa</h1>
+  <img class="imagen" src="./images/Sin-título-2.jpg" title="Los de la culpa" alt="" >
+    <p>Un grupo de humoristas colombianos encienden el escenarios con humoristicas rondas de comentarios y debates sobre 
+        las diferencias regionales entre los colombianos  </p>
+    <p>Este grupo de humoristas cuentan con grandes representantes del humor en el pais.</p>
+    <ul>
+        <li>Ricardo Quevedo</li>
+        <li>Santiago Rendon</li>
+        <li>Ivan Marin</li>
+        <li>Gustavo Bernate</li>
+        <li>Henry Delgado</li>
+    </ul>
+    <p>A continuacion las ciudades donde proximamente se presentaran.</p>
+    <table>
+        <tr class="head">
+            <th>Bogota</th>
+            <th>Ibague</th>
+            <th>Medellin</th>
+            <th>Cali</th>
+        </tr>
+        <tr>
+            <th>Teatro Jorge Eliecer Gaitan</th>
+            <td>Viernes, 14 Abril 2023 <br /> 7pm - 9pm</td>
+            <td>Viernes, 21 Abril 2023 <br /> 7pm - 9pm</td>
+            <td>Viernes, 5 May 2023 <br /> 7pm - 9pm</td>
+        </tr>
+        <tr class="even">
+            <th>Teatro Tolima</th>
+            <td>Sab, 7 Abr 2023 <br />11 am - 1pm</td>
+            <td>Sab, 5 May 2023 <br />11 am - 1pm</td>
+            <td>Sab, 19 May 2023 <br />11 am - 1pm</td>
+        </tr>
+        <tr>
+            <th>Teatro Metropolitano José Gutiérrez Gómez</th>
+            <td>Sab, 9 Jun 2023 <br />11am - 2pm</td>
+            <td>Sab, 7 Jul 2023 <br />11am - 2pm</td>
+            <td>Sab, 21 Jul 2023 <br />11am - 2pm</td>
+        </tr>
+        <tr class="even">
+            <th>Teatro Municipal Enrique Buenaventura</th>
+            <td>Sat, 4 Ago 2023 <br />11am - 4pm</td>
+            <td>Sat, 8 Sep 2023 <br />11am - 4pm</td>
+            <td>Sat, 15 Sep 2023 <br />11am - 4pm</td>
+        </tr>
+    </table>
+    <form action="personalizada_02.html" method="get">
+        <fieldset>
+            <legend>Adquiera su boleta:</legend>
+            <p><label class="title" for="name" >Nombre</label>
+                <input type="text" name="name" id="name" required > <br />
+                <label class=""></label>
+                <label class="title" for="email">Correo:</label>
+                <input type="text" name="email" id="email">
+            </p>
+
+            <p>
+                <label for="location" class="title">Ciudad en la que se encuentra:</label>
+                <select name="location" id="location">
+                    <option value="bo">Bogota</option>
+                    <option value="ib">Ibague</option>
+                    <option value="me">Medellin</option>
+                    <option value="ca">Cali</option>
+                </select>
+            </p>
+           
+            <span class="title">Cupon de descuento</span>
+            <label> <input type="radio" name="cupon" value="si">Si</label>
+            <label> <input type="radio" name="cupon" value="no">No</label>
+
+            <p>
+                <label class="title" for="codigo"> Ingrese el Codigo:</label>
+                    <input type="text" name="codigo" >
+            </p>
+        </fieldset>
+        <div class="submit"> <input type="submit" value="Enviar" /></div>
+    </form>
+</div>
+</body>
+
+</html>
